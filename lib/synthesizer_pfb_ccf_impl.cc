@@ -45,7 +45,7 @@ namespace gr {
     {
       float xtwo = (twox ? 2. : 1.);
       d_pre_pfb = synth_selector::make(nfilts,xtwo);
-      d_pfb = synth_pfb::make(nfilts, twox, taps);
+      d_pfb = synth_pfb::make(nfilts, taps, twox);
       d_splitter = blocks::vector_to_streams::make(sizeof(gr_complex),nfilts);
 
       for(size_t cn = 0; cn < connections; cn++){
