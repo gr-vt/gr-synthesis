@@ -4,7 +4,7 @@
   <key>synthesis_synth_selector</key>
   <category>Synthesis</category>
   <import>import synthesis</import>
-  <make>synthesis.synth_selector($nchans, $oversample_rate)
+  <make>synthesis.synth_selector($nchans, $osr)
 self.$(id).set_channel_map($map)</make>
         <callback>set_channel_map($map)</callback>
 
