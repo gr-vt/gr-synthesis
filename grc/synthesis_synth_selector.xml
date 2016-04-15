@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<block>
+  <name>Synthesis Selector</name>
+  <key>synthesis_synth_selector</key>
+  <category>Synthesis</category>
+  <import>import synthesis</import>
+  <make>synthesis.synth_selector($nchans, $oversample_rate)
+self.$(id).set_channel_map($map)</make>
+        <callback>set_channel_map($map)</callback>
+
+  <param>
+    <name>Channels</name>
+    <key>nchans</key>
+    <value>2</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Connections</name>
+    <key>connections</key>
+    <value>2</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Input Over Sample Ratio</name>
+    <key>osr</key>
+    <value>1.0</value>
+    <type>real</type>
+  </param>
+  <param>
+    <name>Channel Map</name>
+    <key>map</key>
+    <value>[]</value>
+    <type>int_vector</type>
+  </param>
+  <param>
+    <name>Bus Connections</name>
+    <key>bus_conns</key>
+    <value>[[0,1],]</value>
+    <type>raw</type>
+    <hide>part</hide>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <nports>$connections</nports>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>$nchans</vlen>
+  </source>
+
+  <bus_structure_sink>$bus_conns</bus_structure_sink>
+
+</block>

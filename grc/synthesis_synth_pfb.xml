@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<block>
+  <name>Synthesis PFB</name>
+  <key>synthesis_synth_pfb</key>
+  <category>Synthesis</category>
+  <import>import synthesis</import>
+  <make>synthesis.synth_pfb($nchans, $taps, $twox)
+self.$(id).declare_sample_delay($samp_delay)</make>
+        <callback>set_taps($taps)</callback>
+
+  <param>
+    <name>Channels</name>
+    <key>nchans</key>
+    <value>2</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Taps</name>
+    <key>taps</key>
+    <type>real_vector</type>
+  </param>
+  <param>
+    <name>2x Sample Rate</name>
+    <key>twox</key>
+    <value>False</value>
+    <type>enum</type>
+    <option>
+      <name>False</name>
+      <key>0</key>
+    </option>
+    <option>
+      <name>True</name>
+      <key>1</key>
+    </option>
+  </param>
+  <param>
+    <name>Bus Connections</name>
+    <key>bus_conns</key>
+    <value>[[0,1],]</value>
+    <type>raw</type>
+    <hide>part</hide>
+  </param>
+  <param>
+    <name>Sample Delay</name>
+    <key>samp_delay</key>
+    <value>0</value>
+    <type>int</type>
+    <hide>part</hide>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <nports>$nchans</nports>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+  <bus_structure_sink>$bus_conns</bus_structure_sink>
+</block>
