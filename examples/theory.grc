@@ -1203,7 +1203,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1248, 1283)</value>
+      <value>(1248, 1299)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1254,7 +1254,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1305,7 +1305,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1360,7 +1360,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1419,7 +1419,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1474,7 +1474,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1529,7 +1529,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1580,7 +1580,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1631,7 +1631,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1682,7 +1682,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1733,7 +1733,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1784,7 +1784,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1835,7 +1835,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1937,7 +1937,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2043,7 +2043,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2094,7 +2094,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2149,7 +2149,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(529, 816)</value>
+      <value>(569, 808)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2255,7 +2255,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>fft_size</key>
@@ -2326,7 +2326,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(840, 955)</value>
+      <value>(840, 899)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2381,7 +2381,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(840, 1011)</value>
+      <value>(840, 955)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2436,7 +2436,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(840, 1123)</value>
+      <value>(840, 1067)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2491,7 +2491,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(840, 1067)</value>
+      <value>(840, 1011)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2995,7 +2995,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(616, 1267)</value>
+      <value>(616, 1283)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -5728,7 +5728,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(944, 1243)</value>
+      <value>(944, 1259)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -5768,6 +5768,65 @@
     </param>
   </block>
   <block>
+    <key>synthesis_synth_pfb</key>
+    <param>
+      <key>twox</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>bus_conns</key>
+      <value>[range(4),]</value>
+    </param>
+    <param>
+      <key>nchans</key>
+      <value>4</value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(848, 1129)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>synthesis_synth_pfb_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>samp_delay</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>taps</key>
+      <value>synth_taps_base</value>
+    </param>
+  </block>
+  <block>
     <key>synthesis_synth_selector</key>
     <param>
       <key>alias</key>
@@ -5799,7 +5858,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -5824,6 +5883,73 @@
     <param>
       <key>minoutbuf</key>
       <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>synthesis_synthesizer_pfb_ccf</key>
+    <param>
+      <key>twox</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>bus_conns</key>
+      <value>[[0],]</value>
+    </param>
+    <param>
+      <key>ch_map</key>
+      <value>[0]</value>
+    </param>
+    <param>
+      <key>nfilts</key>
+      <value>4</value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>connections</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(416, 811)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>synthesis_synthesizer_pfb_ccf_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>samp_delay</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>taps</key>
+      <value>synth_taps_base</value>
     </param>
   </block>
   <block>
@@ -6147,9 +6273,21 @@
   </connection>
   <connection>
     <source_block_id>blocks_vector_to_streams_1_0</source_block_id>
+    <sink_block_id>synthesis_synth_pfb_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_vector_to_streams_1_0</source_block_id>
     <sink_block_id>fir_filter_xxx_1_0</sink_block_id>
     <source_key>1</source_key>
     <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_vector_to_streams_1_0</source_block_id>
+    <sink_block_id>synthesis_synth_pfb_0</sink_block_id>
+    <source_key>1</source_key>
+    <sink_key>1</sink_key>
   </connection>
   <connection>
     <source_block_id>blocks_vector_to_streams_1_0</source_block_id>
@@ -6159,9 +6297,21 @@
   </connection>
   <connection>
     <source_block_id>blocks_vector_to_streams_1_0</source_block_id>
+    <sink_block_id>synthesis_synth_pfb_0</sink_block_id>
+    <source_key>2</source_key>
+    <sink_key>2</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_vector_to_streams_1_0</source_block_id>
     <sink_block_id>fir_filter_xxx_1_0_0</sink_block_id>
     <source_key>3</source_key>
     <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_vector_to_streams_1_0</source_block_id>
+    <sink_block_id>synthesis_synth_pfb_0</sink_block_id>
+    <source_key>3</source_key>
+    <sink_key>3</sink_key>
   </connection>
   <connection>
     <source_block_id>digital_chunks_to_symbols_xx_0</source_block_id>
@@ -6225,6 +6375,12 @@
   </connection>
   <connection>
     <source_block_id>pfb_channelizer_ccf_0</source_block_id>
+    <sink_block_id>synthesis_synthesizer_pfb_ccf_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>pfb_channelizer_ccf_0</source_block_id>
     <sink_block_id>qtgui_freq_sink_x_0_0_1</sink_block_id>
     <source_key>1</source_key>
     <sink_key>0</sink_key>
@@ -6248,8 +6404,44 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>synthesis_synth_pfb_0</source_block_id>
+    <sink_block_id>blocks_delay_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>synthesis_synth_pfb_0</source_block_id>
+    <sink_block_id>qtgui_freq_sink_x_1</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>synthesis_synth_pfb_0</source_block_id>
+    <sink_block_id>qtgui_waterfall_sink_x_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>synthesis_synth_selector_0</source_block_id>
     <sink_block_id>blocks_vector_to_streams_1_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>synthesis_synthesizer_pfb_ccf_0</source_block_id>
+    <sink_block_id>blocks_delay_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>synthesis_synthesizer_pfb_ccf_0</source_block_id>
+    <sink_block_id>qtgui_freq_sink_x_1</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>synthesis_synthesizer_pfb_ccf_0</source_block_id>
+    <sink_block_id>qtgui_waterfall_sink_x_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>

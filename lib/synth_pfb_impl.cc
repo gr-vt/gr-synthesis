@@ -89,13 +89,13 @@ namespace gr {
       //printf("OUT(%d),IN(%d)\n",noutput_items,noutput_items/(d_nfilts/d_twox));
       if(noutput_items/(d_nfilts/d_twox)){
         for(size_t idx = 0; idx<d_nfilts; idx++){
-          ninput_items_required[idx] = noutput_items/(d_nfilts/d_twox) +2*d_taps_per_filter;
+          ninput_items_required[idx] = noutput_items/(d_nfilts/d_twox) +d_taps_per_filter;
         }
       }
       else
       {
         for(size_t idx = 0; idx<d_nfilts; idx++){
-          ninput_items_required[idx] = 1+2*d_taps_per_filter;
+          ninput_items_required[idx] = 1+d_taps_per_filter;
         }
       }
     }
@@ -244,7 +244,7 @@ namespace gr {
 
       // Tell runtime system how many input items we consumed on
       // each input stream.
-      consume_each (noutput_items);
+      consume_each (ii);
 
       // Tell runtime system how many output items we produced.
       return noutput_items;
